@@ -77,4 +77,43 @@ There are numerous tools that support dependency inversion and inversion of cont
 This also comes back to a phrase that you might have heard elsewhere in the world of object-oriented programming - "coding to an interface".  By writing our code in such a way that it depends on interfaces (or abstractions) rather than concrete implementations, it becomes easier to swop out different implementations.  In effect, the code knows that it depends on an object that can do something, but it doesn't care about how that something is done.  One place where this can prove to be particularly useful is when we want to use mock objects in our test cases; we can easily inject those mocks without affecting the production code being tested - the code doesn't know that its dependency is actually a mock object.  
 
 
+Quotes
+Introduction
+"Good design adds value faster than it adds cost." ~ Thomas C. Gale
 
+http://hackersays.com/57ebd9
+
+
+
+Single Responsibility Principle
+"Any fool can write code that a computer can understand. Good programmers write code that humans can understand." ~ Martin Fowler
+
+https://www.goodreads.com/quotes/6341736-any-fool-can-write-code-that-a-computer-can-understand
+
+
+
+Open/Closed Principle
+"A good design is not the one that correctly predicts the future, it’s one that makes adapting to the future affordable." ~ Venkat Subramaniam
+
+https://twitter.com/venkat_s/status/561046784186015744
+
+
+
+Liskov Substitution Principle
+"If our designs are failing due to the constant rain of changing requirements, it is our designs that are at fault. We must somehow find a way to make our designs resilient to such changes and protect them from rotting." ~ Robert C. Martin 
+
+https://books.google.com/books?id=hckt7v6g09oC&printsec=frontcover#v=onepage&q&f=false (book)
+
+
+
+Interface Segregation Principle
+"Perfection (in design) is achieved not when there is nothing more to add, but rather when there is nothing more to take away." ~ Antoine de Saint-Exupery
+
+https://www.brainyquote.com/quotes/quotes/a/antoinedes103610.html
+
+
+
+Dependency Inversion Principle
+"Simplicity is prerequisite for reliability."  ~ Edsger W. Dijkstra
+
+https://www.brainyquote.com/quotes/quotes/e/edsgerdijk204332.html
